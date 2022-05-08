@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-image:"./images/assigment.jpg" ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .wrapper {
+    position: relative;
+    max-width: 1000px;
+    min-height: 1000px;
+    width: 100%;
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    box-shadow: 0 25px 44px rgba(0, 0, 0, 0.1);
+    /* align-items: flex-start; */
+    color: #444;
+  }
+  .box {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    color: black;
+    border-radius: 5px;
+    padding: 30px;
+  }
+  /* left side */
+  .box.a {
+      display: flex;
+      flex-flow: column;
+  }
+  .profile{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    border-bottom: 3 px solid rgba(255, 255, 255, 2)
+  }
+  .img {
+    width: 130px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 2px solid rgba(255, 255, 255, 20);
+  }
+  .sideprofile{
+      position: relative;
+      margin: 0 10px;
+  }
+  .Education{
+    align-items: left;
+    align-content: left;
+    text-align: left;
+  }
+  .military{
+    align-items: left;
+    align-content: left;
+    text-align: left;
+  }
+  .header{
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .paragraph{
+
+  }
+  .text{
+      color: rgba(255, 255, 255, 0.8);
+  }
+  .contact{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .skills{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  .languages{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  /* right size */
+  .box.b {
+    position: relative;
+    padding-left: 40px;
+    background-color: #444;
+  }
+
+
+
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
+  .a-tag{
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: none;
+  }
+  .a-tag:hover{
+      background-color: lightblue;
+  }
+  .a-tag:active{
+      background-color: red;
+  }
